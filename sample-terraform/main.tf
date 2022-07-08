@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws-instance" "myserver" {
+resource "aws_instance" "myserver" {
   ami = "ami-02f3416038bdb17fb"
   instance_type = var.hw
 }
