@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws-instance" "myserver" {
-  ami = ""
+  ami = "ami-02f3416038bdb17fb"
   instance_type = var.hw
 }
 
